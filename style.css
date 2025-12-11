@@ -40,7 +40,7 @@ p {
 }
 
 .button {
-display: block;
+display: inline-block;
 background: #ffe6b3;
 padding: 18px 40px;
 border-radius: 45px;
