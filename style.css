@@ -37,6 +37,10 @@ p {
 .image_box {
 width: 100%;
 max-width: 400px;
+height: 422px;
+display: flex;
+align-items: start;
+justify-content: start;
 object-fit: cover;
 vertical-align: middle;
 border-radius: 50%;
