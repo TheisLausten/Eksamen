@@ -9,14 +9,15 @@
 
 img {
     border-radius: 50%;
+    height: 442px;
      width: 440px;
-     height: 442px;
 }
 
 .button {
     background-color: #EEEABC;
     color: black;
     border-radius: 40%;
-    width: 186px;
     height: 67px;
+    width: 186px;
+    
 }
