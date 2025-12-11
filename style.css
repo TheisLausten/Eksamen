@@ -3,6 +3,8 @@
     align-items: center;
     justify-content: center;
     padding: 60px;
+    position: relative;
+    overflow: hidden;
 }
 
 .Luft_til_luft_varmepumper {
