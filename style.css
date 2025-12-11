@@ -16,10 +16,12 @@
 .hw {
     color: white;
     margin-bottom: 20px;
+    flex: 1;
 }
 
 .pw {
     color: white;
+    flex: 1;
 }
 
 h1 {
