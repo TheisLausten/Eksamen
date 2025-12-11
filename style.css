@@ -1,4 +1,4 @@
-.Luft.til.luft.varmepumper {
+.Luft_til_luft_varmepumper {
     background-color: #10307C;
     color: white;
 }
@@ -7,11 +7,12 @@
         color: white; 
 }
 
-img {
+.img_pump {
     border-radius:50%;
     height:442px;
     width:440px;
-    display: flex;
+    float: left;
+    
 }
 
 .button {
