@@ -12,3 +12,9 @@ img {
      width: 440px;
      height: 442px;
 }
+
+.button {
+    background-color: #EEEABC;
+    color: black;
+    border-radius: 40%;
+}
