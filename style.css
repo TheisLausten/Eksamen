@@ -8,11 +8,14 @@
 
 .Text_box {
     background-color: #10307C;
+     line-height: 1.5;
+      max-width: 500px;
 
 }
 
 .hw {
     color: white;
+    margin-bottom: 20px;
 }
 
 .pw {
