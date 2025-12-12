@@ -176,21 +176,12 @@ img {
 #footer{
     display: table;
     clear: both;
+    justify-content: space-evenly;
 }
 
-.info {
-  float: left;
-  padding: 10px;
-}
-
-.kontakt {
-  float: left;
-  padding: 10px;
-}
-
-.social_logo {
+.column {
   float: left;
   width: 33.33%;
   padding: 10px;
-  
+  height: 300px; /* Should be removed. Only for demonstration */
 }
