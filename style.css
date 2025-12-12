@@ -2,7 +2,8 @@
 #varmepumpe {
 display: flex;
 background-color: #10307C;
-align-items: center
+align-items: center;
+justify-content: center;
 }  
 
 .left1 {
@@ -39,10 +40,12 @@ img {
 .hw {
     color: white;
     margin-bottom: 20px;
+    text-align: end;
 }
 
 .pw {
     color: white;
+    text-align: end;
 }
 
 h1 {
@@ -55,6 +58,7 @@ p {
     font-family: 'Lato', sans-serif;
     font-weight: lighter;
     font-size: 20px;
+    
 }
 
 .button1 {
@@ -75,20 +79,22 @@ cursor: pointer;
 display: flex;
 background-color: #F0EFDF;
 align-items: center;
+justify-content: space-evenly;
+flex-wrap: nowrap;
 }
 
 .left2 {
     left: 0;
     display: flex;
     align-items: left;
-    justify-content: flex-start;   
+    justify-content: left;   
 }
 
 .right2 {
     right: 0;
     display: flex;
     align-items: right;
-    justify-content: flex-end;
+    justify-content: right;
 }
 .button2 {
 display: inline-block;
