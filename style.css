@@ -36,15 +36,12 @@ p {
 }
 
 .image_box {
-width: 100%;
-max-width: 400px;
-height: 422px;
 display: flex;
-align-items: start;
-justify-content: start;
-object-fit: cover;
-vertical-align: middle;
+ width: 100%;
+margin: 10px;
+padding: 10px;
 border-radius: 50%;
+background-color: #10307C;
 }
 
 .button1 {
