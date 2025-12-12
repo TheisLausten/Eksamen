@@ -77,6 +77,19 @@ background-color: #F0EFDF;
 align-items: center;
 }
 
+.left2 {
+    left: 0;
+    display: flex;
+    align-items: right;
+    justify-content: flex-end;   
+}
+
+.right2 {
+    right: 0;
+    display: flex;
+    align-items: left;
+    justify-content: flex-start;
+}
 .button2 {
 display: inline-block;
 background: #10307C;
