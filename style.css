@@ -3,6 +3,7 @@
     height: 100%;
     width: 50%;
     position: fixed;
+    flex-wrap: wrap;
 }  
 
 .left1 {
