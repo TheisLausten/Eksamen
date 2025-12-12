@@ -1,0 +1,59 @@
+.section_varmepumpe {
+    padding: 0 15px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    gap: 5rem;
+    background-color: #10307C;
+}
+
+.Text_box {
+    background-color: #10307C;
+    flex: 1;
+}
+
+.hw {
+    color: white;
+    margin-bottom: 20px;
+    flex: 1;
+}
+
+.pw {
+    color: white;
+    flex: 1;
+}
+
+h1 {
+    font-family: 'Linden Hill', serif;
+    font-size: 46px;
+    font-weight: lighter;
+}
+
+p {
+    font-family: 'Lato', sans-serif;
+    font-weight: lighter;
+    font-size: 20px;
+}
+
+.image_box {
+width: 100%;
+max-width: 400px;
+height: 422px;
+display: flex;
+align-items: start;
+justify-content: start;
+object-fit: cover;
+vertical-align: middle;
+border-radius: 50%;
+}
+
+.button1 {
+display: inline-block;
+background: #ffe6b3;
+padding: 18px 40px;
+border-radius: 45px;
+font-size: 20px;
+margin-top: 20px;
+transition: 0.25s;
+}
