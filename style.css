@@ -1,27 +1,54 @@
-.section_varmepumpe {
-    padding: 0 15px;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-around;
-    gap: 5rem;
+/* Varmepumpe sektion*/
+.split {
+    height: 100%;
+    width: 50%;
+    position: fixed;
+}  
+
+.left1 {
+    left: 0;
     background-color: #10307C;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
 }
 
-.Text_box {
+img {
+    border-radius: 50%;
+    height: 440px;
+    width: 422px;
+    
+}
+
+.right1 {
+    right: 0;
     background-color: #10307C;
-    flex: 1;
+    display: flex;
+    align-items: right;
+    justify-content: flex-end;
+}
+
+.box-content1{
+    background-color: #10307C;
+    width: 500px;
+    height: 300px;
+    padding: 50px;
+    border: 5px;
+    margin: auto;
+    padding: 20px;
+    box-sizing: content-box;
 }
 
 .hw {
     color: white;
     margin-bottom: 20px;
-    flex: 1;
+    
 }
 
 .pw {
     color: white;
-    flex: 1;
+    
 }
 
 h1 {
@@ -36,17 +63,6 @@ p {
     font-size: 20px;
 }
 
-.image_box {
-width: 100%;
-max-width: 400px;
-height: 422px;
-display: flex;
-align-items: start;
-justify-content: start;
-object-fit: cover;
-vertical-align: middle;
-border-radius: 50%;
-}
 
 .button1 {
 display: inline-block;
@@ -56,4 +72,7 @@ border-radius: 45px;
 font-size: 20px;
 margin-top: 20px;
 transition: 0.25s;
+cursor: pointer;
 }
+
+/* end Varmepumpe sektion*/
