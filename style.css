@@ -16,8 +16,8 @@ display: flex;
 img {
     border-radius: 50%;
     object-fit: cover;
-    height: 440px;
-    width: 422px;
+    height: 200px;
+    width: 200px;
     
 }
 
