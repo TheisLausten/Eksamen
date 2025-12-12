@@ -123,7 +123,7 @@ cursor: pointer;
 display: flex;
 background-color: #10307C;
 align-items: center;
-justify-content: space-evenly;
+justify-content: center;
 }  
 
 .left1 {
@@ -131,7 +131,7 @@ justify-content: space-evenly;
     background-color: #10307C;
     display: flex;
     align-items: left;
-    justify-content: flex-start;
+    justify-content: left;
 }
 
 img {
@@ -146,7 +146,7 @@ img {
     background-color: #10307C;
     display: flex;
     align-items: right;
-    justify-content: flex-end;
+    justify-content: right;
 }
 
 .box-content1{
@@ -160,10 +160,8 @@ img {
 .hw {
     color: white;
     margin-bottom: 20px;
-    text-align: end;
 }
 
 .pw {
     color: white;
-    text-align: end;
 }
