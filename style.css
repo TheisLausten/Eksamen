@@ -86,5 +86,37 @@ p {
     width: 20px;
 
 }
-.nav{margin-right: 150px; margin-left: 50px;}
+.nav{
+    margin-right: 150px; 
+     margin-left: 50px;}
+
+
 .some{margin-right: 150px; }
+
+
+.hero{
+    background-image:url(Hero\ sektion\ billede.jpg);
+   
+ 
+}
+.img-tekst{ 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+ flex-direction: column;}
+
+.hero h1{ 
+    color: white;
+ font-family: 'Linden Hill', serif;
+    font-size: 46px;
+    font-weight: lighter;
+    margin-top: 240px;
+
+}
+
+    .hero p{
+        color: white;
+        font-family: 'Linden Hill', serif;
+    font-size: 40px;
+    font-weight: lighter;
+    }
