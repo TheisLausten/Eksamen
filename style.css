@@ -57,9 +57,10 @@ font-size: 20px;
 margin-top: 20px;
 transition: 0.25s;
 }
-
+#logo{display: inline;}
 ul{
-    display: flex;
+    display: inline;
+   
      justify-content: center; 
      align-items: center; }
 a{
@@ -70,4 +71,4 @@ a{
  }
  a:hover{color: #EEEABC;}
 
- 
+ #facebook{float: right; display:inline }
