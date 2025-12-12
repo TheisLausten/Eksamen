@@ -1,8 +1,7 @@
 /* Varmepumpe sektion*/
-.split {
-    height: 100%;
-    width: 50%;
-    position: fixed;
+#varmepumpe {
+display: flex;
+
 }  
 
 .left1 {
@@ -16,6 +15,7 @@
 
 img {
     border-radius: 50%;
+    object-fit: cover;
     height: 440px;
     width: 422px;
     
@@ -31,9 +31,6 @@ img {
 
 .box-content1{
     background-color: #10307C;
-    width: 500px;
-    height: 300px;
-    padding: 50px;
     border: 5px;
     margin: auto;
     padding: 20px;
