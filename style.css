@@ -1,6 +1,7 @@
 /* Varmepumpe sektion*/
 #varmepumpe {
 display: flex;
+align-items: center;
 
 }  
 
