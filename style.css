@@ -77,3 +77,21 @@ cursor: pointer;
 /* end Varmepumpe sektion*/
 
 /* Opstartstilbud sektion*/
+#opstartstilbud {
+display: flex;
+background-color: #F0EFDF;
+align-items: center;
+}
+
+.button2 {
+display: inline-block;
+background: #10307C;
+color: white;
+padding: 18px 40px;
+border-radius: 45px;
+font-size: 20px;
+margin-top: 20px;
+transition: 0.25s;
+cursor: pointer;
+}
+
