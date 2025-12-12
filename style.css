@@ -4,12 +4,12 @@
     position: fixed;
 }  
 
-.left {
+.left1 {
     left: 0;
     background-color: #10307C;
 }
 
-.right {
+.right1 {
     right: 0;
     background-color: #10307C;
     display: flex;
@@ -17,7 +17,7 @@
     justify-content: flex-end;
 }
 
-.box-content{
+.box-content1{
     background-color: #10307C;
     width: 500px;
     height: 300px;
