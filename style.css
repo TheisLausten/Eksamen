@@ -8,7 +8,10 @@
 .left1 {
     left: 0;
     background-color: #10307C;
-     border-radius: 50%;
+}
+
+img {
+    border-radius: 50%;
 }
 
 .right1 {
