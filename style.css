@@ -160,8 +160,10 @@ img {
 .hw {
     color: white;
     margin-bottom: 20px;
+    text-align: start;
 }
 
 .pw {
     color: white;
+    text-align: start;
 }
