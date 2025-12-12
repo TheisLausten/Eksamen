@@ -8,13 +8,13 @@
 .left1 {
     left: 0;
     background-color: #10307C;
-    align-items: left;
 }
 
 img {
     border-radius: 50%;
     height: 440px;
     width: 422px;
+    align-items: left;
 }
 
 .right1 {
