@@ -10,7 +10,7 @@
     background-color: #10307C;
     display: flex;
     align-items: left;
-    justify-content: left;
+    justify-content: flex-start;
     
 }
 
