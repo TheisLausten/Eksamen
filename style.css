@@ -1,10 +1,9 @@
 .section_varmepumpe div {
-    padding: 0 15px;
     display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-around;
-    gap: 5rem;
+    width: 100px;
+    margin: 10px;
+    padding:10PX;
+    text-align: right;
     background-color: #10307C;
 }
 
