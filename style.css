@@ -29,6 +29,7 @@ img {
     align-items: right;
     justify-content: flex-end;
     vertical-align: text-top;
+    align-content: top;
 }
 
 .box-content1{
@@ -41,6 +42,7 @@ img {
     padding: 20px;
     box-sizing: content-box;
     vertical-align: text-top;
+    align-content: top;
 }
 .hw {
     color: white;
