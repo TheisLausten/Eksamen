@@ -3,12 +3,12 @@
     height: 100%;
     width: 50%;
     position: fixed;
-    border-radius: 50%;
 }  
 
 .left1 {
     left: 0;
     background-color: #10307C;
+     border-radius: 50%;
 }
 
 .right1 {
