@@ -8,13 +8,15 @@
 .left1 {
     left: 0;
     background-color: #10307C;
+    align-items: left;
+    justify-content: flex-end;
+    
 }
 
 img {
     border-radius: 50%;
     height: 440px;
     width: 422px;
-    align-content: center;
 }
 
 .right1 {
