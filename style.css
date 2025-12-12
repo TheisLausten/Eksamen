@@ -38,6 +38,8 @@ img {
     margin: auto;
     padding: 20px;
     box-sizing: content-box;
+    text-align: right;
+    vertical-align: text-top;
 }
 .hw {
     color: white;
