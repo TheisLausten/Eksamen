@@ -81,14 +81,14 @@ align-items: center;
     left: 0;
     display: flex;
     align-items: left;
-    justify-content: flex-end;   
+    justify-content: flex-start;   
 }
 
 .right2 {
     right: 0;
     display: flex;
     align-items: right;
-    justify-content: flex-start;
+    justify-content: flex-end;
 }
 .button2 {
 display: inline-block;
