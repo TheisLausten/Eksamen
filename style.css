@@ -174,5 +174,23 @@ img {
 
 /*Footer*/
 #footer{
-    
+    display: table;
+    clear: both;
+}
+
+.info {
+  float: left;
+  padding: 10px;
+}
+
+.kontakt {
+  float: left;
+  padding: 10px;
+}
+
+.social_logo {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  
 }
