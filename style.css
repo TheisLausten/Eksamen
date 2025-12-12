@@ -3,7 +3,7 @@
 display: flex;
 background-color: #10307C;
 align-items: center;
-justify-content: center;
+justify-content: space-evenly;
 }  
 
 .left1 {
@@ -80,7 +80,7 @@ display: flex;
 background-color: #F0EFDF;
 align-items: center;
 justify-content: space-evenly;
-flex-wrap: nowrap;
+flex-direction: row-reverse;
 }
 
 .left2 {
@@ -96,6 +96,15 @@ flex-wrap: nowrap;
     align-items: right;
     justify-content: right;
 }
+
+.hb {
+    text-align: start;
+}
+
+.pb {
+    text-align: start;
+}
+
 .button2 {
 display: inline-block;
 background: #10307C;
