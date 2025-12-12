@@ -1,5 +1,5 @@
 /* Varmepumpe sektion*/
-#varmepumpe {
+.varmepumpe {
 display: flex;
 background-color: #10307C;
 align-items: center;
