@@ -71,7 +71,6 @@ margin-top: 20px;
 transition: 0.25s;
 cursor: pointer;
 }
-
 /* end Varmepumpe sektion*/
 
 /* Opstartstilbud sektion*/
@@ -116,4 +115,55 @@ margin-top: 20px;
 transition: 0.25s;
 cursor: pointer;
 }
+/*Opstarts sektion end*/
 
+/*Certifikat sektion*/
+
+#ceritficering {
+display: flex;
+background-color: #10307C;
+align-items: center;
+justify-content: space-evenly;
+}  
+
+.left1 {
+    left: 0;
+    background-color: #10307C;
+    display: flex;
+    align-items: left;
+    justify-content: flex-start;
+}
+
+img {
+    border-radius: 50%;
+    object-fit: cover;
+    height: 300px;
+    width: 300px;
+}
+
+.right1 {
+    right: 0;
+    background-color: #10307C;
+    display: flex;
+    align-items: right;
+    justify-content: flex-end;
+}
+
+.box-content1{
+    background-color: #10307C;
+    border: 5px;
+    margin: auto;
+    padding: 20px;
+    box-sizing: content-box;
+}
+
+.hw {
+    color: white;
+    margin-bottom: 20px;
+    text-align: end;
+}
+
+.pw {
+    color: white;
+    text-align: end;
+}
