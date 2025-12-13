@@ -56,7 +56,7 @@ h1 {
 }
 
 p {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Lato', light, sans-serif;
     font-weight: lighter;
     font-size: 20px;
     
@@ -173,15 +173,31 @@ img {
 /*Certifikat end*/
 
 /*Footer*/
-#footer{
-    display: table;
-    clear: both;
-    justify-content: space-evenly;
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', light, sans-serif;
 }
 
-.column {
-  float: left;
-  width: 33.33%;
-  padding: 10px;
-  height: 300px; /* Should be removed. Only for demonstration */
+footer{
+    width: 100%;
+    height: auto;
+    background-color: white;
+}
+
+.container {
+    width: 1140px;
+    height: auto;
+    margin: auto;
+    padding: 40px 0px;
+}
+
+.column{
+    width: 33,3%;
+    height: auto;
+    float: left;
+}
+
+.pf{
+    padding: 8px 12px;
 }
