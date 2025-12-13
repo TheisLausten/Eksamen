@@ -192,12 +192,34 @@ footer{
     padding: 40px 0px;
 }
 
-.column{
+.box{
     width: 33,3%;
     height: auto;
     float: left;
 }
 
-.pf{
+h3{
+    font-size: 32px;
+    font-weight: 500;
     padding: 8px 12px;
+}
+
+.about{
+    padding: 8px 12px;
+}
+
+.kontakt, .sociale{
+    text-align: center;
+    padding: 8px 12px;
+}
+
+.k-link li, .s-link li{
+    padding: 8px 12px;
+    text-align: center;
+    list-style-type: none;
+    cursor: pointer;
+}
+
+.k-link li:hover, .s-link li:hover{
+    color: #022645;
 }
