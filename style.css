@@ -245,12 +245,9 @@ img {
     align-items: center;
     width: 33%;
 }
-.footer h3 {
+.footer h3, p {
     text-align: center;
-}
-
-.footer p {
-    text-align: center;
+    margin: 0;
 }
 
 .socialmediaphotos {
