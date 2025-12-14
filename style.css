@@ -1,11 +1,11 @@
 /* Varmepumpe sektion*/
 #varmepumpe {
-display: flex;
-background-color: #10307C;
-align-items: center;
-justify-content: space-evenly;
-padding: 20px;
-}  
+    display: flex;
+    background-color: #10307C;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 20px;
+}
 
 .left1 {
     left: 0;
@@ -30,7 +30,7 @@ img {
     justify-content: flex-end;
 }
 
-.box-content1{
+.box-content1 {
     background-color: #10307C;
     border: 5px;
     margin: auto;
@@ -59,36 +59,37 @@ p {
     font-family: 'Lato', light, sans-serif;
     font-weight: lighter;
     font-size: 20px;
-    
+
 }
 
 .button1 {
-display: inline-block;
-background: #ffe6b3;
-padding: 18px 40px;
-border-radius: 45px;
-font-size: 20px;
-margin-top: 20px;
-transition: 0.25s;
-cursor: pointer;
+    display: inline-block;
+    background: #ffe6b3;
+    padding: 18px 40px;
+    border-radius: 45px;
+    font-size: 20px;
+    margin-top: 20px;
+    transition: 0.25s;
+    cursor: pointer;
 }
+
 /* end Varmepumpe sektion*/
 
 /* Opstartstilbud sektion*/
 #opstartstilbud {
-display: flex;
-background-color: #F0EFDF;
-align-items: center;
-justify-content: space-evenly;
-flex-direction: row-reverse;
-padding: 40px;
+    display: flex;
+    background-color: #F0EFDF;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row-reverse;
+    padding: 40px;
 }
 
 .left2 {
     left: 0;
     display: flex;
     align-items: left;
-    justify-content: left;   
+    justify-content: left;
 }
 
 .right2 {
@@ -107,27 +108,28 @@ padding: 40px;
 }
 
 .button2 {
-display: inline-block;
-background: #10307C;
-color: white;
-padding: 18px 40px;
-border-radius: 45px;
-font-size: 20px;
-margin-top: 20px;
-transition: 0.25s;
-cursor: pointer;
+    display: inline-block;
+    background: #10307C;
+    color: white;
+    padding: 18px 40px;
+    border-radius: 45px;
+    font-size: 20px;
+    margin-top: 20px;
+    transition: 0.25s;
+    cursor: pointer;
 }
+
 /*Opstarts sektion end*/
 
 /*Certifikat sektion*/
 
 #certificering {
-display: flex;
-background-color: #10307C;
-align-items: center;
-justify-content: space-evenly;
-padding: 20px;
-}  
+    display: flex;
+    background-color: #10307C;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 20px;
+}
 
 .left1 {
     left: 0;
@@ -152,7 +154,7 @@ img {
     justify-content: right;
 }
 
-.box-content1{
+.box-content1 {
     background-color: #10307C;
     border: 5px;
     margin: auto;
@@ -170,56 +172,46 @@ img {
     color: white;
     text-align: start;
 }
+
 /*Certifikat end*/
 
 /*Footer*/
-*{
-    margin: 0;
-    padding: 0;
-    font-family: 'Lato', light, sans-serif;
-}
-
-footer{
-    width: 100%;
-    height: auto;
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: white;
+    gap: 160px;
 }
 
-.container {
-    width: 1140px;
-    height: auto;
-    margin: auto;
-    padding: 40px 0px;
+.info,
+.kontakt,
+.socialmedia {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 33%;
 }
 
-.box{
-    width: 33,3%;
-    height: auto;
-    float: left;
+.footer h3 {
+    text-align: start;
 }
 
-h3{
-    font-size: 32px;
-    font-weight: 500;
-    padding: 8px 12px;
-}
-
-.about{
-    padding: 8px 12px;
-}
-
-.kontakt, .sociale{
+.footer p {
     text-align: center;
-    padding: 8px 12px;
 }
 
-.k-link li, .s-link li{
-    padding: 8px 12px;
-    text-align: center;
-    list-style-type: none;
-    cursor: pointer;
+.socialmediaphotos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
 }
 
-.k-link li:hover, .s-link li:hover{
-    color: #022645;
+.socialmediaphotos img {
+    width: 40px;
+    height: 40px;
+    gap: 12px;
 }
