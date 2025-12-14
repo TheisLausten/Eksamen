@@ -234,7 +234,7 @@ img {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: start;
+    align-items: center;
     width: 33%;
 }
 
@@ -246,11 +246,11 @@ img {
     width: 33%;
 }
 .footer h3 {
-    text-align: start;
+    text-align: center;
 }
 
 .footer p {
-    text-align: start;
+    text-align: center;
 }
 
 .socialmediaphotos {
