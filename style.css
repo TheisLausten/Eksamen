@@ -41,6 +41,7 @@
     transition: 0.25s;
     cursor: pointer;
 }
+
 /* Biografi sektion end*/
 /* Varmepumpe sektion*/
 #varmepumpe {
@@ -222,14 +223,21 @@ img {
 /*Footer*/
 .footer {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: start;
+    align-items: start;
     background-color: white;
-    gap: 160px;
+    gap: 1px;
 }
 
 .info,
-.kontakt,
+.kontakt {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    width: 33%;
+}
+
 .socialmedia {
     display: flex;
     flex-direction: column;
@@ -237,16 +245,15 @@ img {
     align-items: center;
     width: 33%;
 }
-
 .footer h3 {
     text-align: start;
 }
 
 .footer p {
-    text-align: center;
+    text-align: start;
 }
 
-.socialmediaphotos{
+.socialmediaphotos {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -259,4 +266,8 @@ img {
     height: 40px;
     gap: 12px;
 }
+
+@media (max-width: 600px) {
+}
 /*Footer end*/
+ 
