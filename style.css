@@ -1,3 +1,47 @@
+/*Biografi sektion*/
+#biografi {
+    display: flex;
+    background-color: #F0EFDF;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row-reverse;
+    padding: 40px;
+}
+
+.left2 {
+    left: 0;
+    display: flex;
+    align-items: left;
+    justify-content: left;
+}
+
+.right2 {
+    right: 0;
+    display: flex;
+    align-items: right;
+    justify-content: right;
+}
+
+.hb {
+    text-align: start;
+}
+
+.pb {
+    text-align: start;
+}
+
+.button2 {
+    display: inline-block;
+    background: #10307C;
+    color: white;
+    padding: 18px 40px;
+    border-radius: 45px;
+    font-size: 20px;
+    margin-top: 20px;
+    transition: 0.25s;
+    cursor: pointer;
+}
+/* Biografi sektion end*/
 /* Varmepumpe sektion*/
 #varmepumpe {
     display: flex;
@@ -73,7 +117,7 @@ p {
     cursor: pointer;
 }
 
-/* end Varmepumpe sektion*/
+/*Varmepumpe sektion end*/
 
 /* Opstartstilbud sektion*/
 #opstartstilbud {
@@ -215,4 +259,4 @@ img {
     height: 40px;
     gap: 12px;
 }
-/*Footer end
+/*Footer end*/
