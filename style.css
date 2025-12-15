@@ -236,6 +236,7 @@ img {
     justify-content: center;
     align-items: center;
     width: 33%;
+    margin-top: 10px;
 }
 
 .socialmedia {
@@ -244,6 +245,7 @@ img {
     justify-content: center;
     align-items: center;
     width: 33%;
+    margin-top: 10px;
 }
 .footer h3, p {
     text-align: center;
@@ -263,8 +265,4 @@ img {
     height: 40px;
     gap: 12px;
 }
-
-@media (max-width: 600px) {
-}
 /*Footer end*/
- 
