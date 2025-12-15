@@ -25,16 +25,10 @@
 
 .hb {
     text-align: start;
-    font-family: 'Linden Hill', serif;
-    font-size: 46px;
-    font-weight: lighter;
 }
 
 .pb {
     text-align: start;
-     font-family: 'Lato', light, sans-serif;
-    font-weight: lighter;
-    font-size: 20px;
 }
 
 .button2 {
@@ -47,6 +41,34 @@
     margin-top: 20px;
     transition: 0.25s;
     cursor: pointer;
+    text-align: center;
+}
+
+@media (max-width: 600px) {
+    .biografi {
+        flex-direction: column;
+    }
+
+    .hb {
+        font-size: 18px;
+    }
+
+    .pb {
+        font-size: 16px;
+    }
+
+    img {
+        height: 150px;
+        width: 150px;
+    }
+
+    .button2 {
+        font-size: 16px;
+        text-align: center;
+        margin-top: 10px;
+        padding: 9px 10px;
+
+    }
 }
 
 /* Biografi sektion end*/
@@ -94,17 +116,24 @@ img {
     color: white;
     margin-bottom: 20px;
     text-align: end;
-    font-family: 'Linden Hill', serif;
-    font-size: 46px;
-    font-weight: lighter;
 }
 
 .pw {
     color: white;
     text-align: end;
+}
+
+h1 {
+    font-family: 'Linden Hill', serif;
+    font-size: 46px;
+    font-weight: lighter;
+}
+
+p {
     font-family: 'Lato', light, sans-serif;
     font-weight: lighter;
     font-size: 20px;
+
 }
 
 .button1 {
@@ -116,6 +145,7 @@ img {
     margin-top: 20px;
     transition: 0.25s;
     cursor: pointer;
+    text-align: center;
 }
 
 @media (max-width: 600px) {
@@ -135,7 +165,16 @@ img {
         height: 150px;
         width: 150px;
     }
+
+    .button1 {
+        font-size: 16px;
+        text-align: center;
+        margin-top: 10px;
+        padding: 9px 20px;
+
+    }
 }
+
 /*Varmepumpe sektion end*/
 
 /* Opstartstilbud sektion*/
@@ -164,16 +203,10 @@ img {
 
 .hb {
     text-align: start;
-    font-family: 'Linden Hill', serif;
-    font-size: 46px;
-    font-weight: lighter;
 }
 
 .pb {
     text-align: start;
-     font-family: 'Lato', light, sans-serif;
-    font-weight: lighter;
-    font-size: 20px;
 }
 
 .button2 {
@@ -186,6 +219,34 @@ img {
     margin-top: 20px;
     transition: 0.25s;
     cursor: pointer;
+    text-align: center;
+}
+
+@media (max-width: 600px) {
+    .opstartstilbud {
+        flex-direction: column;
+    }
+
+    .hb {
+        font-size: 18px;
+    }
+
+    .pb {
+        font-size: 16px;
+    }
+
+    img {
+        height: 150px;
+        width: 150px;
+    }
+
+    .button2 {
+        font-size: 16px;
+        text-align: center;
+        margin-top: 10px;
+        padding: 9px 20px;
+
+    }
 }
 
 /*Opstarts sektion end*/
@@ -235,17 +296,11 @@ img {
     color: white;
     margin-bottom: 20px;
     text-align: start;
-    font-family: 'Linden Hill', serif;
-    font-size: 46px;
-    font-weight: lighter;
 }
 
 .pw {
     color: white;
     text-align: start;
-    font-family: 'Lato', light, sans-serif;
-    font-weight: lighter;
-    font-size: 20px;
 }
 
 @media (max-width: 600px) {
@@ -266,6 +321,7 @@ img {
         width: 150px;
     }
 }
+
 /*Certifikat end*/
 
 /*Footer*/
@@ -295,22 +351,15 @@ img {
     align-items: center;
     width: 33%;
     margin-top: 10px;
-     margin-bottom: 10px;
+    margin-bottom: 10px;
 }
 
-.footer h3 {
+.footer h3,
+p {
     text-align: center;
     margin: 0;
-    font-family: 'Linden Hill', serif;
-    font-size: 46px;
-    font-weight: lighter;
 }
 
-.p {
- font-family: 'Lato', light, sans-serif;
-    font-weight: lighter;
-    font-size: 20px;
-}
 .socialmediaphotos {
     display: flex;
     flex-direction: column;
@@ -325,22 +374,4 @@ img {
     gap: 12px;
 }
 
-@media (max-width: 600px) {
-    .footer {
-        flex-direction: row;
-    }
-
-    .footer h3 {
-        font-size: 18px;
-    }
-
-    p{
-        font-size: 16px;
-    }
-
-    img {
-        height: 100px;
-        width: 10px;
-    }
-}
 /*Footer end*/
