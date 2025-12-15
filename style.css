@@ -355,7 +355,7 @@ img {
 }
 
 .footer h3,
-p {
+.pf {
     text-align: center;
     margin: 0;
 }
@@ -380,21 +380,20 @@ p {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        gap: 24px;
-        padding: 24px;
+        ;
     }
 
     .footer h3 {
         font-size: 18px;
     }
 
-    .p {
-        font-size: 12px;
+    .pf {
+        font-size: 13px;
     }
 
     .socialmediaphotos img {
-        height: 20px;
-        width: 20px;
+        height: 30px;
+        width: 30px;
         gap: 12px;
     }
 }
