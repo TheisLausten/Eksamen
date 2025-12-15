@@ -1,5 +1,5 @@
 /*Biografi sektion*/
-#biografi {
+.biografi {
     display: flex;
     background-color: #F0EFDF;
     align-items: center;
@@ -44,7 +44,7 @@
 
 /* Biografi sektion end*/
 /* Varmepumpe sektion*/
-#varmepumpe {
+.varmepumpe {
     display: flex;
     background-color: #10307C;
     align-items: center;
@@ -121,7 +121,7 @@ p {
 /*Varmepumpe sektion end*/
 
 /* Opstartstilbud sektion*/
-#opstartstilbud {
+.opstartstilbud {
     display: flex;
     background-color: #F0EFDF;
     align-items: center;
@@ -168,7 +168,7 @@ p {
 
 /*Certifikat sektion*/
 
-#certificering {
+.certificering {
     display: flex;
     background-color: #10307C;
     align-items: center;
@@ -247,7 +247,9 @@ img {
     width: 33%;
     margin-top: 10px;
 }
-.footer h3, p {
+
+.footer h3,
+p {
     text-align: center;
     margin: 0;
 }
