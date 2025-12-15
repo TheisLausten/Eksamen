@@ -219,6 +219,24 @@ img {
     text-align: start;
 }
 
+@media (max-width: 600px) {
+    .certificering {
+        flex-direction: column;
+    }
+
+    .hw {
+        font-size: 18px;
+    }
+
+    .pw {
+        font-size: 16px;
+    }
+
+    img {
+        height: 150px;
+        width: 150px;
+    }
+}
 /*Certifikat end*/
 
 /*Footer*/
@@ -238,6 +256,7 @@ img {
     align-items: center;
     width: 33%;
     margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .socialmedia {
@@ -247,6 +266,7 @@ img {
     align-items: center;
     width: 33%;
     margin-top: 10px;
+     margin-bottom: 10px;
 }
 
 .footer h3,
@@ -267,5 +287,24 @@ p {
     width: 40px;
     height: 40px;
     gap: 12px;
+}
+
+@media (max-width: 600px) {
+    .footer {
+        flex-direction: column;
+    }
+
+    .footer h3 {
+        font-size: 18px;
+    }
+
+    p{
+        font-size: 16px;
+    }
+
+    img {
+        height: 100px;
+        width: 10px;
+    }
 }
 /*Footer end*/
