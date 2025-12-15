@@ -25,10 +25,16 @@
 
 .hb {
     text-align: start;
+    font-family: 'Linden Hill', serif;
+    font-size: 46px;
+    font-weight: lighter;
 }
 
 .pb {
     text-align: start;
+     font-family: 'Lato', light, sans-serif;
+    font-weight: lighter;
+    font-size: 20px;
 }
 
 .button2 {
@@ -88,24 +94,17 @@ img {
     color: white;
     margin-bottom: 20px;
     text-align: end;
-}
-
-.pw {
-    color: white;
-    text-align: end;
-}
-
-h1 {
     font-family: 'Linden Hill', serif;
     font-size: 46px;
     font-weight: lighter;
 }
 
-p {
+.pw {
+    color: white;
+    text-align: end;
     font-family: 'Lato', light, sans-serif;
     font-weight: lighter;
     font-size: 20px;
-
 }
 
 .button1 {
@@ -119,6 +118,24 @@ p {
     cursor: pointer;
 }
 
+@media (max-width: 600px) {
+    .varmepumpe {
+        flex-direction: column;
+    }
+
+    .hw {
+        font-size: 18px;
+    }
+
+    .pw {
+        font-size: 16px;
+    }
+
+    img {
+        height: 150px;
+        width: 150px;
+    }
+}
 /*Varmepumpe sektion end*/
 
 /* Opstartstilbud sektion*/
@@ -147,10 +164,16 @@ p {
 
 .hb {
     text-align: start;
+    font-family: 'Linden Hill', serif;
+    font-size: 46px;
+    font-weight: lighter;
 }
 
 .pb {
     text-align: start;
+     font-family: 'Lato', light, sans-serif;
+    font-weight: lighter;
+    font-size: 20px;
 }
 
 .button2 {
@@ -212,11 +235,17 @@ img {
     color: white;
     margin-bottom: 20px;
     text-align: start;
+    font-family: 'Linden Hill', serif;
+    font-size: 46px;
+    font-weight: lighter;
 }
 
 .pw {
     color: white;
     text-align: start;
+    font-family: 'Lato', light, sans-serif;
+    font-weight: lighter;
+    font-size: 20px;
 }
 
 @media (max-width: 600px) {
@@ -269,12 +298,19 @@ img {
      margin-bottom: 10px;
 }
 
-.footer h3,
-p {
+.footer h3 {
     text-align: center;
     margin: 0;
+    font-family: 'Linden Hill', serif;
+    font-size: 46px;
+    font-weight: lighter;
 }
 
+.p {
+ font-family: 'Lato', light, sans-serif;
+    font-weight: lighter;
+    font-size: 20px;
+}
 .socialmediaphotos {
     display: flex;
     flex-direction: column;
@@ -291,7 +327,7 @@ p {
 
 @media (max-width: 600px) {
     .footer {
-        flex-direction: column;
+        flex-direction: row;
     }
 
     .footer h3 {
