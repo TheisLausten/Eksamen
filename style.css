@@ -65,6 +65,11 @@ p {
     justify-content: space-between;
 }
 
+#logo {
+    max-width: 200px;
+}
+
+
 .nav a {
 
     margin-top: 10px;
@@ -74,6 +79,7 @@ p {
     font-family: "Linden Hill", serif;
     font-weight: 400;
     font-style: normal;
+    font-size: 32;
 }
 
 
@@ -86,37 +92,77 @@ p {
     width: 20px;
 
 }
-.nav{
-    margin-right: 150px; 
-     margin-left: 50px;}
 
-
-.some{margin-right: 150px; }
-
-
-.hero{
-    background-image:url(Hero\ sektion\ billede.jpg);
-   
- 
+.nav {
+    margin-right: 150px;
+    margin-left: 50px;
 }
-.img-tekst{ 
-    display: flex; 
-    justify-content: center; 
-    align-items: center; 
- flex-direction: column;}
 
-.hero h1{ 
+
+.some {
+    margin-right: 150px;
+}
+
+
+.hero {
+   
+ display: flex;
+ display:grid;
+    grid-template-columns:repeat(4,25%) ;
+    grid-template-rows:repeat(4,25%) ;
+    background-color: rgb(0, 0, 0);
+
+
+
+}
+.hero img{
+    width: 900px;
+    height: 600px;
+    
+}
+
+.img-tekst {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.hero h1 {
     color: white;
- font-family: 'Linden Hill', serif;
+    font-family: 'Linden Hill', serif;
     font-size: 46px;
     font-weight: lighter;
     margin-top: 240px;
 
+
 }
 
-    .hero p{
-        color: white;
-        font-family: 'Linden Hill', serif;
+.hero p {
+    color: white;
+    font-family: 'Linden Hill', serif;
     font-size: 40px;
     font-weight: lighter;
-    }
+}
+  .formularen{
+    background-color: aqua;
+    height: 100px;
+    width: 100px;
+    padding: 100px;
+   
+ 
+  
+
+
+  }
+
+  .formularen p{ 
+    font-size: medium;
+
+
+  }
+
+
+
+
+
