@@ -200,7 +200,8 @@ p {
     justify-content: center;
     font-family: 'Lato' sans-serif;
     border-radius: 50px;
-    font-weight: bold;
+    font-weight: lighter;
+    color: grey;
 
 }
 .formularen button:hover {
