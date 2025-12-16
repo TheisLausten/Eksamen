@@ -146,6 +146,7 @@ p {
     transition: 0.25s;
     cursor: pointer;
     text-align: center;
+
 }
 
 @media (max-width: 600px) {
