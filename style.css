@@ -34,6 +34,8 @@
 .button2 {
     display: inline-block;
     background: #10307C;
+    border: none;
+    outline: none;
     color: white;
     padding: 18px 40px;
     border-radius: 45px;
@@ -139,6 +141,8 @@ p {
 .button1 {
     display: inline-block;
     background: #ffe6b3;
+    border: none;
+    outline: none;
     padding: 18px 40px;
     border-radius: 45px;
     font-size: 20px;
@@ -213,6 +217,8 @@ p {
 .button2 {
     display: inline-block;
     background: #10307C;
+    border: none;
+    outline: none;
     color: white;
     padding: 18px 40px;
     border-radius: 45px;
