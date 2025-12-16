@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 /*Biografi sektion*/
 .biografi {
     display: flex;
@@ -41,7 +45,6 @@
     font-size: 20px;
     margin-top: 20px;
     transition: 0.25s;
-    cursor: pointer;
     text-align: center;
 }
 
