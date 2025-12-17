@@ -6,7 +6,7 @@
     justify-content: space-evenly;
 }
 
-#logo {
+.logo {
     height: 400px;
     width: 400px;
     object-fit: contain;
@@ -15,10 +15,12 @@
 
 .nav a {
     align-items: start;
+    justify-content: space-evenly;
     color: black;
     font-family: "Linden Hill", serif;
     font-weight: 400;
     font-size: 40;
+    padding: 0.3rem 0.5rem;
 }
 
 .nav a:hover {
@@ -45,6 +47,27 @@
     justify-content: center;
     align-items: flex-end;
     gap: 20px;
+}
+@media (max-width: 600px) {
+    .logo {
+        height: 230px;
+        width: 230px;
+    }
+
+    .nav a {
+        font-size: 13px;
+        padding: 0.3rem 0.5rem;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .socialmediaphotos-1 img {
+        height: 30px;
+        width: 30px;
+        gap: 12px;
+        flex-direction: row;
+        justify-content: flex-end;
+    }
 }
 /*Header end */
 
