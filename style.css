@@ -151,7 +151,7 @@ background-image: url(Hero\ sektion\ billede.jpg);
 
 .formularen button:hover {
     background-color: #EEEABC;
-    color: #10307C;
+    color: white;
 }
 
 @media (max-width: 600px) {
@@ -163,13 +163,15 @@ background-image: url(Hero\ sektion\ billede.jpg);
     font-size: 24px;
     text-align: center;
     margin-top: 0px;
-    -webkit-text-stroke: 1px black;
+    color: white;
+    font-weight: bolder;
  }
  
  .img-tekst p {
     font-size: 20px;
     text-align: center;
     -webkit-text-stroke: 1px black;
+    font-weight: bolder;
  }
 
  .formularen h1{
