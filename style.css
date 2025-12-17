@@ -1,312 +1,147 @@
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/*Header*/
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#logo {
+    max-width: 200px;
+  margin-top: 0%;
+  margin-bottom: 10px;
+}
+
+.nav a {
+
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: black;
+    font-family: "Linden Hill", serif;
+    font-weight: 400;
+     font-size: 40;
+}
+
+.nav a:hover {
+    color: #EEEABC;
+}
+
+.some img {
+    height: 20px;
+    width: 20px;
+}
+
+.nav {
+    margin-right: 150px;
+    margin-left: 50px;
+    font-size: 40;
+}
+
+
+.some {
+    
+    margin-right: 300px;
+}
+/*Header end */
+
+/*Hero section*/
+.hero {
+    display: flex;
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+    grid-template-rows: repeat(4, 18.3%);
+    background-color: rgb(255, 255, 255);
+}
+
+.hero img {
+    width: 1000px;
+    height: 622px;
+}
+
+.img-tekst{
+    grid-column: 2/4 ;
+    grid-row: 2/4;
+}
+
+.hero h1 {
+    color: white;
+    font-family: 'Linden Hill', serif;
+    font-size: 48px;
+    font-weight: lighter;
+    display: flex;
+     align-items: center;
+    margin-top: 70px;
+    margin-bottom: 0%;
+}
+
+.hero p {
+    color: white;
+    font-family: 'Linden Hill', serif;
+    font-size: 40px;
+    font-weight: lighter;
+    margin-top: 0%;
+}
+
+.formularen {
+    background-color: #10307C;
+
+    padding: 20px;
+    grid-column: 4/5;
+    grid-row: 1/5;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0%;
+}
+
+.formularen h1 {
+    align-items: center;
+    margin-top: 15px;
+    justify-content: center;
+}
+
+.formularen p {
+    font-size: 20px;
+    font-family: 'Lato', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5px;
+    font-weight: lighter;
+}
+
+.input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.input input {
+    width: 200px;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 50px;
+    font-family: 'Lato' sans-serif;
+}
+
+.formularen button {
+    padding: 20px;
+    margin : 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Lato' sans-serif;
+    font-size: 16px;
+    border-radius: 50px;
+    font-weight: lighter;
+    color: gray;
+}
+
+.formularen button:hover{
+    background-color: #EEEABC;
+    color: #10307C;
+}
+/*Hero section end*/
 
 html {
     scroll-behavior: smooth;
