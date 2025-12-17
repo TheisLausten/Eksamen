@@ -3,19 +3,17 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-evenly;
 }
 
 .logo {
-    height: 400px;
-    width: 400px;
     object-fit: contain;
     align-items: flex-start;
+    border-radius: 0%;
+    width: 250px;
 }
 
 .nav a {
     align-items: start;
-    justify-content: space-evenly;
     color: black;
     font-family: "Linden Hill", serif;
     font-weight: 400;
@@ -27,28 +25,20 @@
     color: #10307C;
 }
 
-.socialmediaphotos-1 img {
-    height: 40px;
-    width: 40px;
-    display: flex;
-    flex-direction: row;
-}
-
 .nav {
-    margin-right: 300px;
     font-size: 40;
-    align-items: center;
-    justify-content: space-evenly;
+    text-align: center;
 }
 
-.socialmediaphotos-1 {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: flex-end;
-    gap: 20px;
+.socialmedialogo {
+     height: 30px;
 }
+
 @media (max-width: 600px) {
+    .header {
+        flex-direction: column;
+    }
+    
     .logo {
         height: 230px;
         width: 230px;
@@ -73,39 +63,31 @@
 
 /*Hero section*/
 .hero {
-    display: grid;
-    grid-template-columns: repeat(4, 25%);
-    grid-template-rows: repeat(4, 18.3%);
-    background-color: rgb(255, 255, 255);
-}
-
-.Hero-billede {
-    width: 1500px;
-    height: 622px;
-    border-radius: 0%;
-    
+    display: flex   
 }
 
 .img-tekst {
-    grid-column: 2/4;
-    grid-row: 2/4;
+flex-grow: 1;
+background-image: url(Hero\ sektion\ billede.jpg);
 }
 
-.hero h1 {
+.img-tekst h1 {
     color: white;
+    -webkit-text-stroke: 1px black;
     font-family: 'Linden Hill', serif;
     font-size: 48px;
     font-weight: lighter;
-    align-items: center;
-    margin-bottom: 0%;
+    text-align: center;
+    margin-top: 250px;
 }
 
-.hero p {
+.img-tekst p {
     color: white;
+    -webkit-text-stroke: 1px black;
     font-family: 'Linden Hill', serif;
     font-size: 40px;
     font-weight: lighter;
-    margin-top: 0%;
+    text-align: center;
 }
 
 .formularen {
@@ -119,14 +101,17 @@
 }
 
 .formularen h1 {
-    align-items: center;
     margin-top: 15px;
-    justify-content: center;
+    text-align: center;
+    color: white;
+    font-family: 'Linden Hill', serif;
+    font-size: 40px;
 }
 
 .formularen p {
     font-size: 20px;
     font-family: 'Lato', sans-serif;
+    color: white;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -153,9 +138,9 @@
 
 .formularen button {
     padding: 20px;
-    margin: 30px;
+    margin: 20px;
+    width: 200px;
     display: flex;
-    align-items: center;
     justify-content: center;
     border: none;
     outline: none;
@@ -171,6 +156,41 @@
     color: #10307C;
 }
 
+@media (max-width: 600px) {
+.hero{
+    flex-direction: column;
+}
+
+ .img-tekst h1 {
+    font-size: 24px;
+    text-align: center;
+    margin-top: 0px;
+    -webkit-text-stroke: 1px black;
+ }
+ 
+ .img-tekst p {
+    font-size: 20px;
+    text-align: center;
+    -webkit-text-stroke: 1px black;
+ }
+
+ .formularen h1{
+font-size: 25px;
+ }
+
+ .formularen p{
+    font-size: 15px;
+ }
+
+ .formularen button {
+    font-size: 15px;
+ }
+
+ .input input {
+    font-size: 15px;
+ }
+    
+}
 /*Hero section end*/
 
 html {
@@ -238,7 +258,7 @@ html {
         font-size: 16px;
     }
 
-    img {
+    .round-image {
         height: 150px;
         width: 150px;
     }
@@ -273,8 +293,6 @@ html {
 img {
     border-radius: 50%;
     object-fit: cover;
-    height: 300px;
-    width: 300px;
 }
 
 .right1 {
@@ -345,7 +363,7 @@ p {
         font-size: 16px;
     }
 
-    img {
+    .round-image {
         height: 150px;
         width: 150px;
     }
@@ -421,7 +439,7 @@ p {
         font-size: 16px;
     }
 
-    img {
+    .round-image {
         height: 150px;
         width: 150px;
     }
@@ -455,7 +473,7 @@ p {
     justify-content: left;
 }
 
-img {
+.round-image {
     border-radius: 50%;
     object-fit: cover;
     height: 300px;
@@ -502,7 +520,7 @@ img {
         font-size: 16px;
     }
 
-    img {
+    .round-image {
         height: 150px;
         width: 150px;
     }
