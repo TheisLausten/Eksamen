@@ -93,8 +93,6 @@ background-image: url(Hero\ sektion\ billede.jpg);
 .formularen {
     background-color: #10307C;
     padding: 20px;
-    grid-column: 4/5;
-    grid-row: 1/5;
     display: flex;
     flex-direction: column;
     height: 582px;
