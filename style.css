@@ -56,7 +56,6 @@
         flex-direction: row;
     }
 }
-
 /*Header end */
 
 /*Hero section*/
@@ -192,11 +191,9 @@
 }
 
 /*Hero section end*/
-
 html {
     scroll-behavior: smooth;
 }
-
 /*Biografi sektion*/
 .biografi {
     display: flex;
@@ -271,8 +268,8 @@ html {
 
     }
 }
-
 /* Biografi sektion end*/
+
 /* Varmepumpe sektion*/
 .varmepumpe {
     display: flex;
@@ -376,7 +373,6 @@ p {
 
     }
 }
-
 /*Varmepumpe sektion end*/
 
 /* Opstartstilbud sektion*/
@@ -452,7 +448,6 @@ p {
 
     }
 }
-
 /*Opstarts sektion end*/
 
 /*Certifikat sektion*/
@@ -525,7 +520,6 @@ p {
         width: 150px;
     }
 }
-
 /*Certifikat end*/
 
 /*Footer*/
@@ -601,5 +595,4 @@ p {
         gap: 12px;
     }
 }
-
 /*Footer end*/
