@@ -12,9 +12,9 @@
 }
 
 .nav {
- display: flex;
-  gap: 30px;                    
- justify-content: center;
+    display: flex;
+    gap: 30px;
+
 }
 
 .nav a {
@@ -24,16 +24,22 @@
     padding: 0.3rem 0.5rem;
 }
 
+.nav ul {
+    padding: 0;
+}
 .nav a:hover {
     color: #10307C;
 }
 
 .socialmedialogo {
-    height: 30px;
     display: flex;
     gap: 10px;
+    width: 250px;
 }
 
+.facebook, .linkedin {
+width: 30px;
+}
 @media (max-width: 600px) {
     .header {
         flex-direction: column;
@@ -57,6 +63,7 @@
         flex-direction: column;
     }
 }
+
 /*Header end */
 
 /*Hero section*/
@@ -75,7 +82,7 @@
     font-size: 48px;
     font-weight: lighter;
     text-align: center;
-    margin-top: 250px;  
+    margin-top: 250px;
     margin-left: 100px;
 }
 
@@ -120,19 +127,19 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    color: black;
 }
+
 
 .input input {
     width: 200px;
     padding: 20px;
     margin: 10px;
     border-radius: 50px;
-    font-family: 'Lato' sans-serif;
     border: none;
-    outline: none;
 }
 
-.formularen button {
+#kontakttBtn {
     padding: 20px;
     margin: 20px;
     width: 200px;
@@ -144,12 +151,12 @@
     font-size: 16px;
     border-radius: 50px;
     font-weight: lighter;
-    color: gray;
 }
 
-.formularen button:hover {
-    background-color: #EEEABC;
-    color: white;
+#kontakttBtn:hover {
+    background-color: #F0B92A;
+    color: black;
+    font-weight: bold;
 }
 
 @media (max-width: 600px) {
@@ -195,6 +202,7 @@
 html {
     scroll-behavior: smooth;
 }
+
 /*Biografi sektion*/
 .biografi {
     display: flex;
@@ -269,6 +277,7 @@ html {
 
     }
 }
+
 /* Biografi sektion end*/
 
 /* Varmepumpe sektion*/
@@ -374,6 +383,7 @@ p {
 
     }
 }
+
 /*Varmepumpe sektion end*/
 
 /* Opstartstilbud sektion*/
@@ -449,6 +459,7 @@ p {
 
     }
 }
+
 /*Opstarts sektion end*/
 
 /*Certifikat sektion*/
@@ -521,6 +532,7 @@ p {
         width: 150px;
     }
 }
+
 /*Certifikat end*/
 
 /*Footer*/
@@ -596,4 +608,5 @@ p {
         gap: 12px;
     }
 }
+
 /*Footer end*/
