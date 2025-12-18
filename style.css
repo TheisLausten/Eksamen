@@ -37,6 +37,7 @@
 @media (max-width: 600px) {
     .header {
         flex-direction: column;
+        margin-bottom: 50px;
     }
 
     .logo {
@@ -53,7 +54,7 @@
     .socialmedialogo {
         height: 25px;
         gap: 12px;
-        flex-direction: row;
+        flex-direction: column;
     }
 }
 /*Header end */
