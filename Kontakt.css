@@ -1,0 +1,164 @@
+/*Header*/
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 40px;
+}
+
+.logo {
+    border-radius: 0%;
+    width: 250px;
+    height: 150px;
+}
+
+.nav {
+    display: flex;
+    gap: 30px;
+
+}
+
+.nav a {
+    color: black;
+    font-family: "Linden Hill", serif;
+    font-size: 18px;
+    padding: 0.3rem 0.5rem;
+}
+
+.nav ul {
+    padding: 0;
+}
+.nav a:hover {
+    color: #10307C;
+}
+
+.socialmedialogo {
+    display: flex;
+    gap: 10px;
+    width: 250px;
+}
+
+.facebook, .linkedin {
+width: 30px;
+}
+@media (max-width: 600px) {
+    .header {
+        flex-direction: column;
+        margin-bottom: 50px;
+    }
+
+    .logo {
+        width: 300px;
+        
+    }
+
+    .nav a {
+        font-size: 16px;
+        padding: 0.3rem 0.5rem;
+        display: flex;
+    }
+
+    .socialmedialogo {
+        display: flex;
+        width: 125px;
+        gap: 12px;
+        
+    }
+}
+
+/*Header end*/
+
+/*kontakt start*/
+.kontakt1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+h2 {
+    font-size: 25px;
+    text-align: center;
+}
+
+p {
+    font-size: 18px;
+    text-align: center;
+}
+
+/*Footer*/
+.footer {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    background-color: white;
+    gap: 1px;
+    margin-bottom: 50px;
+}
+
+.info,
+.kontakt {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 33%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.socialmedia {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 33%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.footer h3,
+.pf {
+    text-align: center;
+    margin: 0;
+}
+
+.socialmediaphotos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.socialmediaphotos img {
+    width: 40px;
+    height: 40px;
+    gap: 12px;
+}
+
+@media (max-width: 600px) {
+    .footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        ;
+    }
+
+    .footer h3 {
+        font-size: 18px;
+    }
+
+    .pf {
+        font-size: 13px;
+    }
+
+    .socialmediaphotos img {
+        height: 30px;
+        width: 30px;
+        gap: 12px;
+    }
+}
+
+/*Footer end*/
