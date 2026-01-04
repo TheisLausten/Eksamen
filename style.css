@@ -556,6 +556,8 @@ p {
     width: 33%;
     margin-top: 10px;
     margin-bottom: 10px;
+    
+   
 }
 
 .socialmedia {
@@ -571,7 +573,7 @@ p {
 .footer h3,
 .pf {
     text-align: center;
-    margin: 0;
+    margin: 5px;
 }
 
 .socialmediaphotos {
@@ -597,13 +599,8 @@ p {
         ;
     }
 
-    .footer h3 {
-        font-size: 18px;
-    }
 
-    .pf {
-        font-size: 13px;
-    }
+
 
     .socialmediaphotos img {
         height: 30px;
