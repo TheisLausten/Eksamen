@@ -9,6 +9,7 @@
 .logo {
     border-radius: 0%;
     width: 250px;
+    height: 150px;
 }
 
 .nav {
@@ -47,7 +48,8 @@ width: 30px;
     }
 
     .logo {
-        width: 200px;
+        width: 300px;
+        
     }
 
     .nav a {
