@@ -420,6 +420,10 @@ p {
     text-align: start;
 }
 
+ul li {
+    font-size: 19px;
+}
+
 .button3 {
     display: inline-block;
     background: #10307C;
@@ -459,6 +463,10 @@ p {
         margin-top: 10px;
         padding: 9px 20px;
 
+    }
+
+    ul li{
+        font-size: 10px;
     }
 }
 
