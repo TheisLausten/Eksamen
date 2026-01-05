@@ -143,10 +143,15 @@ p {
     margin-bottom: 10px;
 }
 
-.footer h3,
+.footer h3 {
+    text-align: center;
+    margin: 0;
+}
+
 .pf {
     text-align: center;
     margin: 0;
+    font-size: 16px;
 }
 
 .socialmediaphotos {

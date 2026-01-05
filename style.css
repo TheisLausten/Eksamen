@@ -570,10 +570,15 @@ p {
     margin-bottom: 10px;
 }
 
-.footer h3,
+.footer h3 {
+    text-align: center;
+    margin: 5px;
+}
+
 .pf {
     text-align: center;
     margin: 5px;
+    font-size: 16px;
 }
 
 .socialmediaphotos {
@@ -598,9 +603,14 @@ p {
         align-items: center;
         ;
     }
+    
+    .footer h3 {
+        font-size: 18px;
+    }
 
-
-
+    .pf {
+        font-size: 13px;
+    }
 
     .socialmediaphotos img {
         height: 30px;
