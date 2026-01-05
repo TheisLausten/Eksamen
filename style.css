@@ -28,6 +28,7 @@
 .nav ul {
     padding: 0;
 }
+
 .nav a:hover {
     color: #10307C;
 }
@@ -38,9 +39,11 @@
     width: 250px;
 }
 
-.facebook, .linkedin {
-width: 30px;
+.facebook,
+.linkedin {
+    width: 30px;
 }
+
 @media (max-width: 600px) {
     .header {
         flex-direction: column;
@@ -49,7 +52,7 @@ width: 30px;
 
     .logo {
         width: 300px;
-        
+
     }
 
     .nav a {
@@ -62,7 +65,7 @@ width: 30px;
         display: flex;
         width: 125px;
         gap: 12px;
-        
+
     }
 }
 
@@ -465,7 +468,7 @@ ul li {
 
     }
 
-    ul li{
+    ul li {
         font-size: 15px;
     }
 }
@@ -564,8 +567,8 @@ ul li {
     width: 33%;
     margin-top: 10px;
     margin-bottom: 10px;
-    
-   
+
+
 }
 
 .socialmedia {
@@ -611,7 +614,7 @@ ul li {
         align-items: center;
         ;
     }
-    
+
     .footer h3 {
         font-size: 18px;
     }
