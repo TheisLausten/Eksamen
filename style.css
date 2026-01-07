@@ -12,25 +12,33 @@
     height: 150px;
 }
 
-.nav {
-    display: flex;
-    gap: 30px;
-
+.subcontainer {
+    width: 85%;
+    margin: auto;
 }
 
-.nav a {
+li{
+    list-style: none;
+}
+
+a{
     color: black;
-    font-family: "Linden Hill", serif;
-    font-size: 18px;
-    padding: 0.3rem 0.5rem;
+    text-decoration: none;
 }
 
-.nav ul {
-    padding: 0;
+.navbar{
+    width: 100%;
+    min-height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.nav a:hover {
-    color: #10307C;
+.nav-menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
 }
 
 .socialmedialogo {
@@ -44,9 +52,23 @@
     width: 30px;
 }
 
+.hamburger {
+display: none;
+cursor: pointer;
+}
+
+.bar{
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px 0;
+    transition: all 0.3s ease;
+    background-color: black;
+}
+
 @media (max-width: 600px) {
     .header {
-        flex-direction: column;
+        flex-direction: row;
         margin-bottom: 50px;
     }
 
@@ -66,6 +88,41 @@
         width: 125px;
         gap: 12px;
 
+    }
+
+    .hamburger{
+        display: block;
+    }
+
+    .hamburger .active .bar:nth-child(2) {
+        opacity: 0;
+    }
+
+    .hamburger .active .bar:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+    }
+
+    .hamburger .active .bar:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+    }
+
+    .nav-menu{
+        position: fixed;
+        left: -100%;
+        top: 70px;
+        gap: 0;
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+        transition: 0.3s;
+    }
+
+    .nav-item{
+        margin: 16px 0;
+    }
+
+    .nav-menu.active{
+        left: 0 ;
     }
 }
 
