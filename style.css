@@ -291,6 +291,7 @@ html {
 
 .hb {
     text-align: start;
+    font-weight: bold;
 }
 
 .pb {
@@ -384,6 +385,7 @@ img {
     color: white;
     margin-bottom: 20px;
     text-align: end;
+    font-weight: lighter;
 }
 
 .pw {
